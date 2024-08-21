@@ -1,0 +1,12 @@
+io/github/jamestrandung/cache/CaffeineWrapper$NoopCaffeineWrapper.class
+io/github/jamestrandung/cache/CaffeineWrapper$BasicCaffeineWrapper.class
+io/github/jamestrandung/cache/CachedRecord.class
+io/github/jamestrandung/cache/StringRedisWrapper$BasicStringRedisWrapper.class
+io/github/jamestrandung/cache/CaffeineRedisCache$1.class
+io/github/jamestrandung/cache/StringRedisWrapper.class
+io/github/jamestrandung/cache/StringRedisWrapper$RedisConfigs.class
+io/github/jamestrandung/cache/CaffeineRedisCache.class
+io/github/jamestrandung/cache/MultiLayerCache.class
+io/github/jamestrandung/cache/StringRedisWrapper$NoopStringRedisWrapper.class
+io/github/jamestrandung/cache/CaffeineWrapper.class
+io/github/jamestrandung/cache/CachedRecord$CachedRecordBuilder.class

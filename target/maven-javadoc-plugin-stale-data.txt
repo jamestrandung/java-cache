@@ -1,0 +1,118 @@
+@options
+@packages
+-classpath
+'/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-all/4.0.22/groovy-all-4.0.22.pom:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-ant/4.0.22/groovy-ant-4.0.22.jar:/Users/jamestrandung/.m2/repository/org/apache/ant/ant/1.10.14/ant-1.10.14.jar:/Users/jamestrandung/.m2/repository/org/apache/ant/ant-junit/1.10.14/ant-junit-1.10.14.jar:/Users/jamestrandung/.m2/repository/org/apache/ant/ant-launcher/1.10.14/ant-launcher-1.10.14.jar:/Users/jamestrandung/.m2/repository/org/apache/ant/ant-antlr/1.10.14/ant-antlr-1.10.14.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-cli-picocli/4.0.22/groovy-cli-picocli-4.0.22.jar:/Users/jamestrandung/.m2/repository/info/picocli/picocli/4.7.6/picocli-4.7.6.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-console/4.0.22/groovy-console-4.0.22.jar:/Users/jamestrandung/.m2/repository/com/github/javaparser/javaparser-core/3.26.1/javaparser-core-3.26.1.jar:/Users/jamestrandung/.m2/repository/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar:/Users/jamestrandung/.m2/repository/org/ow2/asm/asm/9.7/asm-9.7.jar:/Users/jamestrandung/.m2/repository/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar:/Users/jamestrandung/.m2/repository/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar:/Users/jamestrandung/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/Users/jamestrandung/.m2/repository/org/apache/ivy/ivy/2.5.2/ivy-2.5.2.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-datetime/4.0.22/groovy-datetime-4.0.22.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-docgenerator/4.0.22/groovy-docgenerator-4.0.22.jar:/Users/jamestrandung/.m2/repository/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-groovydoc/4.0.22/groovy-groovydoc-4.0.22.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-groovysh/4.0.22/groovy-groovysh-4.0.22.jar:/Users/jamestrandung/.m2/repository/jline/jline/2.14.6/jline-2.14.6.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-jmx/4.0.22/groovy-jmx-4.0.22.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-jsr223/4.0.22/groovy-jsr223-4.0.22.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-macro/4.0.22/groovy-macro-4.0.22.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-nio/4.0.22/groovy-nio-4.0.22.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-servlet/4.0.22/groovy-servlet-4.0.22.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-sql/4.0.22/groovy-sql-4.0.22.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-swing/4.0.22/groovy-swing-4.0.22.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-templates/4.0.22/groovy-templates-4.0.22.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-test/4.0.22/groovy-test-4.0.22.jar:/Users/jamestrandung/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/jamestrandung/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-test-junit5/4.0.22/groovy-test-junit5-4.0.22.jar:/Users/jamestrandung/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.jar:/Users/jamestrandung/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-yaml/4.0.22/groovy-yaml-4.0.22.jar:/Users/jamestrandung/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.17.1/jackson-dataformat-yaml-2.17.1.jar:/Users/jamestrandung/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/Users/jamestrandung/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/jamestrandung/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/jamestrandung/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/jamestrandung/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jamestrandung/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/jamestrandung/.m2/repository/org/springframework/data/spring-data-redis/3.3.3/spring-data-redis-3.3.3.jar:/Users/jamestrandung/.m2/repository/org/springframework/data/spring-data-keyvalue/3.3.3/spring-data-keyvalue-3.3.3.jar:/Users/jamestrandung/.m2/repository/org/springframework/data/spring-data-commons/3.3.3/spring-data-commons-3.3.3.jar:/Users/jamestrandung/.m2/repository/org/springframework/spring-context/6.1.12/spring-context-6.1.12.jar:/Users/jamestrandung/.m2/repository/org/springframework/spring-expression/6.1.12/spring-expression-6.1.12.jar:/Users/jamestrandung/.m2/repository/io/micrometer/micrometer-observation/1.12.9/micrometer-observation-1.12.9.jar:/Users/jamestrandung/.m2/repository/io/micrometer/micrometer-commons/1.12.9/micrometer-commons-1.12.9.jar:/Users/jamestrandung/.m2/repository/org/springframework/spring-tx/6.1.12/spring-tx-6.1.12.jar:/Users/jamestrandung/.m2/repository/org/springframework/spring-beans/6.1.12/spring-beans-6.1.12.jar:/Users/jamestrandung/.m2/repository/org/springframework/spring-core/6.1.12/spring-core-6.1.12.jar:/Users/jamestrandung/.m2/repository/org/springframework/spring-jcl/6.1.12/spring-jcl-6.1.12.jar:/Users/jamestrandung/.m2/repository/org/springframework/spring-oxm/6.1.12/spring-oxm-6.1.12.jar:/Users/jamestrandung/.m2/repository/org/springframework/spring-aop/6.1.12/spring-aop-6.1.12.jar:/Users/jamestrandung/.m2/repository/org/springframework/spring-context-support/6.1.12/spring-context-support-6.1.12.jar:/Users/jamestrandung/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.2/jackson-datatype-jsr310-2.17.2.jar:/Users/jamestrandung/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar:/Users/jamestrandung/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar:/Users/jamestrandung/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar:/Users/jamestrandung/.m2/repository/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar:/Users/jamestrandung/.m2/repository/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar:/Users/jamestrandung/.m2/repository/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar:/Users/jamestrandung/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/jamestrandung/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/jamestrandung/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'/Users/jamestrandung/Desktop/dev/java-cache/src/main/java:/Users/jamestrandung/Desktop/dev/java-cache/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'java-cache 0.1.0-RELEASE API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/jamestrandung/Desktop/dev/java-cache/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'java-cache 0.1.0-RELEASE API'
+io.github.jamestrandung.cache
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-all/4.0.22/groovy-all-4.0.22.pom = 1719800566000
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar = 1719753509000
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-ant/4.0.22/groovy-ant-4.0.22.jar = 1719753507000
+/Users/jamestrandung/.m2/repository/org/apache/ant/ant/1.10.14/ant-1.10.14.jar = 1717576372259
+/Users/jamestrandung/.m2/repository/org/apache/ant/ant-junit/1.10.14/ant-junit-1.10.14.jar = 1717576372813
+/Users/jamestrandung/.m2/repository/org/apache/ant/ant-launcher/1.10.14/ant-launcher-1.10.14.jar = 1717576373094
+/Users/jamestrandung/.m2/repository/org/apache/ant/ant-antlr/1.10.14/ant-antlr-1.10.14.jar = 1717576373332
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-cli-picocli/4.0.22/groovy-cli-picocli-4.0.22.jar = 1719908148000
+/Users/jamestrandung/.m2/repository/info/picocli/picocli/4.7.6/picocli-4.7.6.jar = 1715155785000
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-console/4.0.22/groovy-console-4.0.22.jar = 1719839754000
+/Users/jamestrandung/.m2/repository/com/github/javaparser/javaparser-core/3.26.1/javaparser-core-3.26.1.jar = 1719276448000
+/Users/jamestrandung/.m2/repository/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar = 1711360914000
+/Users/jamestrandung/.m2/repository/org/ow2/asm/asm/9.7/asm-9.7.jar = 1719558243414
+/Users/jamestrandung/.m2/repository/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar = 1719558243237
+/Users/jamestrandung/.m2/repository/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar = 1711254406000
+/Users/jamestrandung/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar = 1717576379334
+/Users/jamestrandung/.m2/repository/org/apache/ivy/ivy/2.5.2/ivy-2.5.2.jar = 1717576381107
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-datetime/4.0.22/groovy-datetime-4.0.22.jar = 1719800370000
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-docgenerator/4.0.22/groovy-docgenerator-4.0.22.jar = 1719839753000
+/Users/jamestrandung/.m2/repository/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar = 1717576382056
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-groovydoc/4.0.22/groovy-groovydoc-4.0.22.jar = 1719753507000
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-groovysh/4.0.22/groovy-groovysh-4.0.22.jar = 1719908039000
+/Users/jamestrandung/.m2/repository/jline/jline/2.14.6/jline-2.14.6.jar = 1717576362605
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-jmx/4.0.22/groovy-jmx-4.0.22.jar = 1719908151000
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar = 1719800506000
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-jsr223/4.0.22/groovy-jsr223-4.0.22.jar = 1719908041000
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-macro/4.0.22/groovy-macro-4.0.22.jar = 1719800372000
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-nio/4.0.22/groovy-nio-4.0.22.jar = 1719800502000
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-servlet/4.0.22/groovy-servlet-4.0.22.jar = 1719908155000
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-sql/4.0.22/groovy-sql-4.0.22.jar = 1719800507000
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-swing/4.0.22/groovy-swing-4.0.22.jar = 1719839754000
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-templates/4.0.22/groovy-templates-4.0.22.jar = 1719839753000
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-test/4.0.22/groovy-test-4.0.22.jar = 1719839753000
+/Users/jamestrandung/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar = 1717576369095
+/Users/jamestrandung/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar = 1724243849038
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-test-junit5/4.0.22/groovy-test-junit5-4.0.22.jar = 1719800508000
+/Users/jamestrandung/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.jar = 1717576366743
+/Users/jamestrandung/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar = 1717576365411
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar = 1719753508000
+/Users/jamestrandung/.m2/repository/org/apache/groovy/groovy-yaml/4.0.22/groovy-yaml-4.0.22.jar = 1719908165000
+/Users/jamestrandung/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.17.1/jackson-dataformat-yaml-2.17.1.jar = 1724243986207
+/Users/jamestrandung/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar = 1724243987011
+/Users/jamestrandung/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar = 1717576366411
+/Users/jamestrandung/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar = 1717576380210
+/Users/jamestrandung/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar = 1717576367165
+/Users/jamestrandung/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar = 1717576364009
+/Users/jamestrandung/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar = 1717576362246
+/Users/jamestrandung/.m2/repository/org/springframework/data/spring-data-redis/3.3.3/spring-data-redis-3.3.3.jar = 1724244476399
+/Users/jamestrandung/.m2/repository/org/springframework/data/spring-data-keyvalue/3.3.3/spring-data-keyvalue-3.3.3.jar = 1724244477115
+/Users/jamestrandung/.m2/repository/org/springframework/data/spring-data-commons/3.3.3/spring-data-commons-3.3.3.jar = 1724244476496
+/Users/jamestrandung/.m2/repository/org/springframework/spring-context/6.1.12/spring-context-6.1.12.jar = 1724244475569
+/Users/jamestrandung/.m2/repository/org/springframework/spring-expression/6.1.12/spring-expression-6.1.12.jar = 1724244479230
+/Users/jamestrandung/.m2/repository/io/micrometer/micrometer-observation/1.12.9/micrometer-observation-1.12.9.jar = 1724244479605
+/Users/jamestrandung/.m2/repository/io/micrometer/micrometer-commons/1.12.9/micrometer-commons-1.12.9.jar = 1724244475375
+/Users/jamestrandung/.m2/repository/org/springframework/spring-tx/6.1.12/spring-tx-6.1.12.jar = 1724244476744
+/Users/jamestrandung/.m2/repository/org/springframework/spring-beans/6.1.12/spring-beans-6.1.12.jar = 1724244477676
+/Users/jamestrandung/.m2/repository/org/springframework/spring-core/6.1.12/spring-core-6.1.12.jar = 1724244478957
+/Users/jamestrandung/.m2/repository/org/springframework/spring-jcl/6.1.12/spring-jcl-6.1.12.jar = 1724244479503
+/Users/jamestrandung/.m2/repository/org/springframework/spring-oxm/6.1.12/spring-oxm-6.1.12.jar = 1724244475554
+/Users/jamestrandung/.m2/repository/org/springframework/spring-aop/6.1.12/spring-aop-6.1.12.jar = 1724244476630
+/Users/jamestrandung/.m2/repository/org/springframework/spring-context-support/6.1.12/spring-context-support-6.1.12.jar = 1724244479312
+/Users/jamestrandung/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.2/jackson-datatype-jsr310-2.17.2.jar = 1724244383872
+/Users/jamestrandung/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar = 1724244383926
+/Users/jamestrandung/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar = 1724244384076
+/Users/jamestrandung/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar = 1724244384669
+/Users/jamestrandung/.m2/repository/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar = 1691563855000
+/Users/jamestrandung/.m2/repository/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar = 1690915765000
+/Users/jamestrandung/.m2/repository/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar = 1691186702000
+/Users/jamestrandung/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar = 1717576375516
+/Users/jamestrandung/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar = 1717576362188
+/Users/jamestrandung/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar = 1712948439000
+/Users/jamestrandung/Desktop/dev/java-cache/src/main/java = 1724244158852
+/Users/jamestrandung/Desktop/dev/java-cache/target/generated-sources/annotations = 1724246597427
+/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs/tag-search-index.js = 1724246607120
+/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs/overview-tree.html = 1724246607074
+/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs/module-search-index.js = 1724246607119
+/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs/index.html = 1724246607148
+/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs/package-search-index.js = 1724246607119
+/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs/jquery-ui.overrides.css = 1724246607170
+/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs/index-all.html = 1724246607146
+/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs/allpackages-index.html = 1724246607118
+/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs/member-search-index.js = 1724246607120
+/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs/script.js = 1724246607157
+/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs/stylesheet.css = 1724246607156
+/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs/help-doc.html = 1724246607154
+/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs/element-list = 1724246606961
+/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs/allclasses-index.html = 1724246607113
+/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs/type-search-index.js = 1724246607120
+/Users/jamestrandung/Desktop/dev/java-cache/target/apidocs/search.js = 1724246607159
